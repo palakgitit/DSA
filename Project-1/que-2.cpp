@@ -26,7 +26,7 @@ int main (){
              : 'F';
                                 
 
-     cout <<"You got Grade " << grade<<"." ;
+     cout <<"You got Grade " << grade << ".";
     //  grade with message. 
     switch (grade ){
 
@@ -37,10 +37,10 @@ int main (){
         cout  << " " << "Well done.! ";
         break;
         case 'C':
-        cout << " " << "Good Job ";
+        cout << " " << " Good Job ";
         break;
         case 'D':
-        cout << " " << "You Passed. ";
+        cout << " " << " You Passed. ";
         break;
         case 'F':
         cout << " " << "Sorry , you failed. ";
@@ -50,13 +50,6 @@ int main (){
         break;
     }
 
-    //  eligibility checking. 
-    if ( grade != 'F' ){
-         cout << "Congratulations.!! You are Eligible for next level.!";
-    }
-    else {
-        cout << " You are not Eligible.Try again Next time.";
-    }
 
    
 
