@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+
+    int i , j , k , p;
+
+        for (i=5;i>=1;i--){
+            //  space
+            for ( k=1;k<i ;k++){
+
+                cout << "  ";
+            }
+            // number
+            for (j=i;j<=5;j++){
+                
+                cout<< j <<" ";
+            }
+            // cout << endl;
+            for (p=i; p<5;p++ ){
+                cout<<p<<" ";
+            }
+            cout <<endl;
+        }
+    return 0;
+}
+
+//         5 
+//       4 5 4
+//     3 4 5 3 4
+//   2 3 4 5 2 3 4
+// 1 2 3 4 5 1 2 3 4
