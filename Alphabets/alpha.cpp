@@ -275,5 +275,97 @@ int main (){
         }
         cout << endl;
     }
+
+    cout<< "Alphabet : W" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if (i==1 || i==2){
+
+            cout << "*       *";
+        }
+        else if (i==3){
+
+            cout << "*   *   *";
+        }else if (i==4){
+            cout<< "*  * *  *";
+        }else {
+
+            cout<< "  *   *  ";
+        }
+        cout << endl;
+
+    }
+
+    cout<< "Alphabet : X" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if (i==1 || i==5){
+
+            cout<< "*      *";
+
+        }
+        else if (i==2 || i==4){
+
+            cout << "  *  *  ";
+        }else{
+
+            cout<<"   **  ";
+        }
+        cout << endl;
+
+    }
+
+
+    cout<< "Alphabet : Y" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if (i==1){
+
+            cout << "*     *";
+        }
+        else if (i==2){
+            cout<< " *   *";
+        }else if (i==3){
+            cout<< "  ***";
+        }else{
+
+            cout<< "   *";
+        }
+        cout << endl;
+
+    }
+
+    cout<< "Alphabet : Z" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if (i==2){
+            cout<<"     *";
+            
+        }else if (i==3){
+
+            cout << "   *";
+        }else if (i==4){
+            cout << " *";
+        }
+            
+        else {
+            cout << "*******";
+         
+        }
+        cout << endl;
+
+    }
+
+    
+
+    return 0; 
     
 }
