@@ -109,6 +109,36 @@ int main (){
         cout << endl;
     }
 
+     cout<< "Alphabet : G" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if(i==1 ){
+
+            cout<<" * * *  ";
+        } 
+        else if (i==2){
+
+            cout<<"* ";
+        }else if (i==3){
+
+            cout<<"*    * *";
+        }
+        else if (i==4){
+
+            cout << "*      *";
+        }
+        else {
+
+            cout << "  * * * ";
+        }
+        cout << endl;
+    }
+
+    
+    
+
     cout<< "Alphabet : H" <<endl;
     cout << endl;
 
@@ -162,6 +192,27 @@ int main (){
         cout << endl;
     }
 
+
+     cout<< "Alphabet : k" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if(i==1  || i==5){
+
+            cout<<"*    *";
+        } else if(i==2 || i==4){
+
+            cout <<"*  *";
+        }
+        else {
+
+            cout<<"* * ";
+        }
+        cout << endl;
+    }
+
+
     cout<< "Alphabet : L" <<endl;
     cout << endl;
 
@@ -174,6 +225,72 @@ int main (){
         else {
 
             cout<<"* ";
+        }
+        cout << endl;
+    }
+
+    cout<< "Alphabet : M" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if(i==2){
+
+            cout<<"* *   * *";
+        } else if(i==3){
+
+            cout <<"*   *   *";
+        }
+        else {
+
+            cout<<"*       * ";
+        }
+        cout << endl;
+    }
+
+    cout<< "Alphabet : N" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<5;i++){
+
+        if(i==2){
+
+            cout<<"* *     *";
+        } else if(i==3){
+
+            cout <<"*   *   *";
+        }
+        else if (i==4) {
+
+            cout<<"*     * * ";
+        }else{
+
+            cout << "*       *";
+        }
+        cout << endl;
+    }
+
+    cout<< "Alphabet : S" <<endl;
+    cout << endl;
+
+    for (i=1 ; i<=5;i++){
+
+        if(i==1){
+
+            cout<<"  * * * ";
+        } else if(i==2){
+
+            cout <<" *";
+        }
+        else if (i==3) {
+
+            cout<<"  * * ";
+        }else if (i==4){
+
+            cout << "     *";
+        }else 
+        {
+            cout << "* * * ";
         }
         cout << endl;
     }
