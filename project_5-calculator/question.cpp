@@ -17,12 +17,12 @@ void Subs (int num1 , int num2){
 
 void Multiplication (int num1 , int num2){
 
-    cout<< "The Multiplication of " << num1 << "&" << num2 <<" is: "<< num1*num2 << endl; 
+    cout<< "The Multiplication of " << num1 << " & " << num2 <<" is: "<< num1*num2 << endl; 
     cout  << endl;
 }
-void Division (int num1 , int num2){
+void Division (float num1 , float num2){
 
-    int div;
+    float div;
     if (num1==0 || num2==0){
 
         cout << "Number cannot be divided with zero.";
