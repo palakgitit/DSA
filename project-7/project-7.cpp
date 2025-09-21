@@ -12,6 +12,7 @@ class Student
     string name;
 
 public:
+
     Student(T i, string n)
     {
         id = i;
